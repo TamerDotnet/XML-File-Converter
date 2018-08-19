@@ -10,6 +10,6 @@ namespace Logistics.Orders.Data
         public const string No_Order_Details_Found_For = "No Order Details Found for Order ID: {0} ";
         public const string Header_Fields_Need_Review = "The Following Fields for the order header are either Missing/Incorrect {0} for Order ID: {1}";
         public const string Details_Fields_Need_Review = "The Following Fields for the order Details are either Missing/Incorrect {0} for Order ID: {1}";
-        public const string No_OrderId_Found = "No Order Id Found";
+        public const string No_OrderId_Found = "No Order Id Found"; 
     }
 }

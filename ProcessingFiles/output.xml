@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<ArrayOfPurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PurchaseOrder>
+    <CustomerPo>PO2008-01</CustomerPo>
+    <Supplier>SFC01</Supplier>
+    <Origin>CNSHA</Origin>
+    <Destination>AUMEL</Destination>
+    <CargoReady>2014-05-01T00:00:00</CargoReady>
+    <Lines>
+      <PurchaseOrderLine>
+        <LineNumber>1</LineNumber>
+        <ProductDescription>RED LOUNGES</ProductDescription>
+        <OrderQty>100</OrderQty>
+      </PurchaseOrderLine>
+      <PurchaseOrderLine>
+        <LineNumber>2</LineNumber>
+        <ProductDescription>GREY LOUNGES</ProductDescription>
+        <OrderQty>50</OrderQty>
+      </PurchaseOrderLine>
+    </Lines>
+  </PurchaseOrder>
+  <PurchaseOrder>
+    <CustomerPo>PO2008-02</CustomerPo>
+    <Supplier>YIP01</Supplier>
+    <Origin>CNYTN</Origin>
+    <Destination>AUSYD</Destination>
+    <CargoReady>2014-05-16T00:00:00</CargoReady>
+    <Lines>
+      <PurchaseOrderLine>
+        <LineNumber>1</LineNumber>
+        <ProductDescription>BAR STOOLS</ProductDescription>
+        <OrderQty>40</OrderQty>
+      </PurchaseOrderLine>
+      <PurchaseOrderLine>
+        <LineNumber>2</LineNumber>
+        <ProductDescription>METAL TABLES</ProductDescription>
+        <OrderQty>75</OrderQty>
+      </PurchaseOrderLine>
+    </Lines>
+  </PurchaseOrder>
+  <PurchaseOrder>
+    <CustomerPo>PO2008-03</CustomerPo>
+    <Supplier>SFC01</Supplier>
+    <Origin>CNSHA</Origin>
+    <Destination>AUMEL</Destination>
+    <CargoReady>2014-07-01T00:00:00</CargoReady>
+    <Lines>
+      <PurchaseOrderLine>
+        <LineNumber>1</LineNumber>
+        <ProductDescription>RED CHAIRS</ProductDescription>
+        <OrderQty>33</OrderQty>
+      </PurchaseOrderLine>
+    </Lines>
+  </PurchaseOrder>
+  <PurchaseOrder>
+    <CustomerPo>PO2008-04</CustomerPo>
+    <Supplier>SFC01</Supplier>
+    <Origin>CNSHA</Origin>
+    <Destination>AUMEL</Destination>
+    <CargoReady>2014-06-30T00:00:00</CargoReady>
+    <Lines>
+      <PurchaseOrderLine>
+        <LineNumber>1</LineNumber>
+        <ProductDescription>GREEN BEDS</ProductDescription>
+        <OrderQty>33</OrderQty>
+      </PurchaseOrderLine>
+      <PurchaseOrderLine>
+        <LineNumber>2</LineNumber>
+        <ProductDescription>GREEN TABLES</ProductDescription>
+        <OrderQty>44</OrderQty>
+      </PurchaseOrderLine>
+      <PurchaseOrderLine>
+        <LineNumber>3</LineNumber>
+        <ProductDescription>GREEN LAMPS</ProductDescription>
+        <OrderQty>55</OrderQty>
+      </PurchaseOrderLine>
+    </Lines>
+  </PurchaseOrder>
+</ArrayOfPurchaseOrder>
